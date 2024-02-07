@@ -3,73 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Exercises </title>
+    <title>html_exercise </title>
+    <link rel="stylesheet" href="href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">">
 
 
-<style>
-    table, th, td {
-        border: 1px solid;
-    }
-</style>
+    <style>
+        table, th, td {
+            border: 1px solid;
+        }
+    </style>
+
+
 </head>
 <body>
 
     <header>
-        <h1>Sincu_Gam</h1>
-    </header>
-    
+        <h1>Travel with Gam</h1>
+    <!-- Navigation Bar -->>
     <nav>
         <ul>
+            <li><a href="#">Registration Form</a></li>
+            <li><a href="#">Traveler's Information Table</a></li>
+            <li><a href="#">Image</a></li>
+            <li><a href="#">Audio</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Footer</a></li>
             <li><a href="#">Home</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-    
-    <header>
-        <h2>Image</h2>
-        <section>
-            <figure>
-                <img src="232a6dbf053e4a20bd71bd14c6493396.jpg" alt="Panda">
-                <figcaption>Sippin' on sweetness, this little panda found his bubble tea bliss!</figcaption> 
-            </figure>
-        </section>
     </header>
     
+    <section id="home">
+        <h2>Welcome to Travel with Gam's Website!</h2>
+        <p>At Travel with Gam, we're passionate about exploring the world and sharing our adventures with fellow travelers like you. Whether you're seeking inspiration for your next journey, practical tips for navigating new destinations, or simply a community of like-minded explorers, you've come to the right place.</p>
+    </section>
+
+    <section id="about_us">
+        <h2>About Us</h2>
+        <p>This website provides and offers variety of services. An example of this is <abbr title="Tourist Destination Planning">TDP</abbr>and<abbr title="Book to stay">BTS</abbr></p>
+        <p>Citations: According to <cite>Unknown</cite>, Work, Travel, Save, Repeat.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For more information, please contact us through the following:</p>
+        <ul>
+            <li>Facebook: Travel with Gam-Facebook Page</li>
+            <li>Email: <a href="mailto:travelwithgam@gmail.com" id="contactEmail">travelwithgam@gmail.com</a></li>
+            <li>Phone: <span id="contactPhone">09489132394</span></li>
+        </ul>
+
+    </section>
     
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <br>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-
-        <br>
-
-        <label>Gender:</label>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label>
+        <section>
+            <h2>Image</h2>
+            <figure>
+                <img src="232a6dbf053e4a20bd71bd14c6493396.jpg" alt="Panda Image">
+                <figcaption>Sippin' on sweetness, this little panda found his bubble tea bliss!</figcaption> 
+            </figure> 
+        </section>
+    
         
-        <br>
+        
+    <section id="registration">
+        <h2>Registration Form </h2>
+        <form action="#" method="post" >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-        <input type="checkbox" id="terms" name="terms" required>
-        <label for="terms">I accept the terms and conditions.</label>
+            <br>
 
-        <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        
+            <br>
+
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I accept the terms and conditions.</label>
+
+            <br>
 
         <input type="submit" value="Submit">
-    </form>
+        </form>
+    </section>    
+    
     
 
-    
-
-    <header>
-        <h2> sample table</h2>
-        <article>
+    <section id="information">
+        <h2>Traveler's Information Table</h2>
             <table>
                 <thead>
                     <tr>
@@ -90,34 +121,35 @@
                         <td>Los Angeles</td>
                     </tr>
                 </tbody>
-            </table>
-        </article>
-    </header>
-    
-    <header>
-        <h2>Audio</h2>
-        <section>
+            </table
+    </section>
+        
+        
+        <section id="audio">
+            <h2>Audio</h2>
             <audio controls>
                 <source src="borrowed_time_by_Cueshe(MP3_70K)_1.mp3" type="audio/mp3"> 
+                Your browser does not support the audio tag.
             </audio>
         </section>
-    </header>
+
     
-    <header>
-        <h2>Video</h2>
-        <section>
-            <video controls width="600" height "300">
-                <source src = VID_20230227_164902.mp4>
-            <video>
-                                                        
+        <section id="video">
+            <h2>Video</h2>
+            <video src="VID_20230227_164902.mp4">
+                Your browser does not support the video tag.
+            </video>
         </section>
-    </header>
-    
+        
 
     <footer>
-        <p>&copy; 2024 Sincu_Gam. All rights reserved.</p>
+        <p>&copy; 2024 Travel with Gam. All rights reserved.</p>
     </footer>
 
-    
+    <script src="script,js"></script>
+
+    <h2>Google Map</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.8863502178213!2d-122.41948568567125!3d37.77492977956175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808d62a61b0f%3A0x9379454c91b50e7d!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1643651100307!5m2!1sen!2sus" frameborder="0"></iframe>
 </body>
 </html>
+maxcdn.bootstrapcdn.com
