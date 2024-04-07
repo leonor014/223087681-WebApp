@@ -1,0 +1,125 @@
+'a79518a,leonor014,Thu Feb 15 13:57:55 2024 -0100,trial.html
+'
+0	14	trial.html
+
+'1a38e0d,leonor014,Thu Feb 15 13:56:45 2024 -0100,trial.html
+'
+14	0	trial.html
+
+'91680b6,leonor014,Thu Feb 15 13:55:06 2024 -0100,Merge branch 'main' of https://github.com/leonor014/223087681-WebApp
+'
+'a499ab7,leonor014,Thu Feb 15 13:54:29 2024 -0100,html_exercise.html
+'
+20	11	html_exercise.html
+0	1	trial
+
+'ffadc58,leonor014,Thu Feb 15 11:40:13 2024 -0100,ai.html
+'
+5	3	ai.html
+
+'85b31d8,leonor014,Thu Feb 15 11:34:12 2024 -0100,ai.html
+'
+-	-	download.jpg
+1	1	timemgmt.html
+
+'44175ef,leonor014,Thu Feb 15 11:32:44 2024 -0100,ai.html
+'
+41	0	ai.html
+50	45	timemgmt.html
+
+'03fd0a5,leonor014,Thu Feb 15 10:14:15 2024 -0100,ai.html
+'
+45	0	_4mat.html
+0	0	ai.html
+60	0	timemgmt.html
+
+'c7c5f5d,leonor014,Thu Feb 15 02:50:13 2024 -0100,Update timemgmt.html'
+8	5	timemgmt.html
+
+'bf844cf,leonor014,Wed Feb 14 21:49:07 2024 -0100,timemgmt.html
+'
+3	3	html_exercise.html
+
+'6fee372,leonor014,Wed Feb 7 22:19:07 2024 -0100,_4mat.html
+'
+7	5	html_exercise.html
+
+'0fc6d62,leonor014,Wed Feb 7 00:24:01 2024 -0100,html_exercise.html
+'
+87	55	html_exercise.html
+
+'9595a79,leonor014,Mon Feb 5 21:21:10 2024 -0100,html_exercise.html
+'
+0	0	exercises.html => html_exercise.html
+
+'2eb71a3,leonor014,Wed Jan 31 23:12:36 2024 -0100,Resume.html
+'
+38	0	Educational Background.html
+20	0	Interests.html
+24	0	Personal Information.html
+8	10	Resume.html
+20	0	Skills.html
+19	0	Trainings Attended.html
+
+'c40ad88,leonor014,Wed Jan 31 22:53:01 2024 -0100,exercises.html
+'
+-	-	232a6dbf053e4a20bd71bd14c6493396.jpg
+-	-	VID_20230227_164902.mp4
+-	-	borrowed_time_by_Cueshe(MP3_70K)_1.mp3
+123	0	exercises.html
+
+'4432cb2,leonor014,Wed Jan 31 22:43:09 2024 -0100,exercises.html
+'
+0	124	exercises.html
+
+'5cada4e,leonor014,Wed Jan 31 05:46:33 2024 -0100,Update exercises.html'
+5	1	exercises.html
+
+'847211a,leonor014,Wed Jan 31 04:52:46 2024 -0100,Update exercises.html'
+2	4	exercises.html
+
+'6eb8e44,S312User,Fri Jan 26 12:34:41 2024 +0800,Rsume2.html
+'
+1	1	Resume.html
+17	0	Rsume2/Educational Background.html
+
+'d5c0914,S312User,Fri Jan 26 12:31:04 2024 +0800,Rsume2.html
+'
+0	19	Personal Information.html
+12	16	Resume.html
+0	0	Educational Background.html => Rsume2/Educational Background.html
+30	0	Rsume2/Personal Information.html
+
+'0c45eab,S312User,Fri Jan 26 12:19:33 2024 +0800,Resume.html
+'
+0	0	Educational Background.html
+19	0	Personal Information.html
+34	0	Resume.html
+
+'f77dbce,S312User,Fri Jan 26 11:57:41 2024 +0800,resume.html
+'
+57	44	exercises.html
+
+'0c808bf,S312User,Mon Jan 22 12:44:17 2024 +0800,exercises.html
+'
+10	2	exercises.html
+
+'f488f40,leonor014,Sun Jan 21 00:11:50 2024 -0100,exercises.html
+'
+101	0	exercises.html
+
+'c60e7a4,leonor014,Mon Jan 15 18:06:25 2024 +0800,Create Resume.html'
+1	0	Resume.html
+
+'b0113dc,U302User,Wed Jan 10 13:28:53 2024 +0800,intro.html
+'
+17	0	intro.html
+
+'4ae2c5a,leonor014,Wed Jan 10 12:50:20 2024 +0800,mytrial.txt'
+1	0	mytrial.txt
+
+'d5263e6,leonor014,Wed Jan 10 12:49:04 2024 +0800,Create trial'
+1	0	trial
+
+'4b3c94c,leonor014,Wed Jan 10 12:03:15 2024 +0800,Initial commit'
+1	0	README.md
