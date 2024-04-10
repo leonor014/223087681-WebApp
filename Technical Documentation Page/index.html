@@ -1,14 +1,609 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technical Documentation Page</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <p>just a only</p>
-    <p>placement fora while</p>
-    <p>a b c</p>
-</body>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Web Application Development</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#What_you_should_already_know"
+            >What you should already know</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#HTML_and_CSS"
+            >HTML and CSS</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Git">Git</a></li>
+        <li><a class="nav-link" href="#Git_Commands">Git Commands</a></li>
+        <li><a class="nav-link" href="#Basic_HTML_Elements">Basic HTML Elements</a></li>
+        <li>
+          <a class="nav-link" href="#Formatting"
+            >Formatting</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Frames">Frames</a></li>
+        <li>
+          <a class="nav-link" href="#Images">Images</a>
+        </li>
+        <li><a class="nav-link" href="#Audio/Video">Audio/Video</a></li>
+        <li><a class="nav-link" href="#Lists">Lists</a></li>
+        <li>
+          <a class="nav-link" href="Tables"
+            >Tables</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Styles_and_Semantics">Styles and Semantics</a></li>
+        <li>
+          <a class="nav-link" href="#Meta_Info"
+            >Meta Info</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Programming">Programming</a></li>
+        <li><a href="Windows_Subsystem_for_Linux">Windows Subsystem for Linux</a></li>
+        <li><a href="Flexbox_CSS_Tricks"> Flexbox CSS Tricks</a></li>
+        <li><a href="Basic_and_Terminology">Basic and Terminology</a></li>
+        <li><a href="Properties_for_the_Parent"> Properties for the Parent</a></li>
+        <li><a href="Properties_for_the_Child">Properties for the Child</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            A web application or web app is a software application that can be accessible 
+            via a web browser or a web-enabled device, such as a smartphone or tablet. It 
+            operates on a web server and anyone with an internet connection can use it. 
+            Web applications have become an integral part of our daily existence, and their 
+            importance will continue to grow beyond 2024.
+          </p>
+
+          <p>
+            Web application development refers to the process of creating software
+            applications that are designed to be accessed and used through web browsers. 
+            These applications run on web servers and are delivered to users online. 
+            Web applications can provide various functionalities and services, from simple 
+            web pages to complex, interactive platforms.
+          </p>
+          <p>
+            Key aspects of web application development include:
+          </p>
+          <ul>
+            <li>
+              Client-Side Development: This involves creating the user interface 
+              (UI) components of the web application. Client-side development typically 
+              includes HTML (Hypertext Markup Language) for structuring content, CSS 
+              (Cascading Style Sheets) for styling, and JavaScript for adding interactivity 
+              and dynamic behavior.
+            </li>
+
+            <ul>
+              <p>Advantages:</p>
+              <li>Fast and responsive user interfaces.</li>
+              <li>Reduces server load as certain operations are performed on the client's side.</li>
+              <li>Managing the presentation layer and user interactions.</li>
+            </ul>
+            <li>
+              Server-Side Development: Server-side development focuses on building the back 
+              end of the web application. This includes designing and implementing the server 
+              logic, database management, user authentication, and business logic. Common 
+              programming languages for server-side development include Python, Ruby, Java, PHP, and Node.js.
+
+            </li>
+            <ul>
+              <p>Advantages:
+                <li>Enhanced security as sensitive operations are are performed on the server.</li>
+                <li>Centralized control over data and business logic.</li>
+                <li>Better scability for handling a large number of users.</li>
+              </p>
+            </ul>
+            <li>
+              Full-Stack Development: Full-stack developers works on both server-side and client server side.
+              These developers have a broader skill. They can handle tasks ranging from designing user interfaces
+              to managing sever infrastructure.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
+        <article>
+          <p>This guide assumes you have the following basic background:</p>
+
+          <ul>
+            <li>
+              A general understanding of the Internet and the World Wide Web
+              (WWW).
+            </li>
+            <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+            <li>
+              Some programming experience. If you are new to programming, try
+              one of the tutorials linked on the main page about JavaScript.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="HTML_and CSS">
+        <header>HTML and CSS</header>
+        <article>
+          <p>
+            HTML stands for Hypertext Markup Language. HTML is the standard markup
+            language used to create the structure and content of web pages. 
+            HTML had its latest version, HTML5. This version introduces new features
+            and improvements over its predecessors. HTML5 provides tags and attributes
+            that define the various elements on a web page, such as headings, paragraphs,
+            images, links, forms, and more. It also include new elements like header, 
+            nav, article, section, footer, which help in structing the content more sementically.
+          </p>
+
+          <p>
+            CSS stands for Cascading Style Sheets that is used to style and layout 
+            the visual presentation of HTML documents. CSS allows the developer to edit
+            the colors, fonts, spacing, and positioning of elements on a web page. It 
+            is applied within an HTML document, externally in a separate stylesheet file,
+            or inline within HTML tags.
+          </p>
+          
+        </article>
+      </section>
+    <section class="main-header" id="Git">
+      <header>Git</header>
+      <article>
+        <p>
+          Git is a DevOps tool used for source code management. It is a free and open-source 
+          version control system used to handle small to very large projects efficiently. Git 
+          is used to tracking changes in the source code, enabling multiple developers to work 
+          together on non-linear development.
+        </p>
+      </article>
+    </section>
+      <section class="main-section" id="Git_Commands">
+        <header>Git Commands</header>
+        <article>
+          <ul>
+            <lo>
+              <h3>Cloning</h3>
+              To clone your repository from another pc to another. This is the command:
+              <code>
+                >git clone https://github.com/your username in github account/repository
+    
+                For example:
+                >git clone https://github.com/leonor014/223087681-WebApp
+              </code> 
+            </lo>
+            <lo>
+              <h3>Add & Commit</h3>
+              To add and commit files, the code for it is:
+              <code>
+                >git add .
+                >git commit -m "filename"
+              </code>
+              There is a shortcut to add and commit all files by just using one line.
+              <code>
+                >git commit -am "filename or commit message"
+              </code>
+            </lo>
+            <lo>
+              <h3>Amend</h3>
+              By using '--amend', you can rename your current commit message and write a new message.
+              <code>
+                > git commit --amend -m "commit message"
+              </code>
+            </lo>
+            <lo>
+              <h3>Pushing </h3>
+              These commands are used to push your file in your repository after coding.
+    
+              <code
+                >git add .
+                >git commit -m"filename or commit message"
+                >git push
+              </code>
+            </lo>
+            <lo>
+              <h3>Pull</h3>
+              To copy the progress of your repository from one pc to your main. Use the command:
+              <code>
+                >git pull
+              </code>
+              Reminder: Cloning is only done once, so use git pull to pull the progress of your
+              repository from one pc to another.
+            </lo>
+            <lo>
+              <h3>Remove</h3>
+              Git rm is the command to remove/delete files in your repository.
+              <code>
+                > git rm "filename to be removed", git commit -m "filename to be removed", git push
+              </code>
+            </lo>
+            <lo>
+              <h3>Revert</h3>
+              The 'revert' command is used to undo a commit. It is just used to undone a commit 
+              but does not remove previous commits.
+              <code>
+                >git revert (commit ID)
+              </code>
+            </lo>
+            <lo>
+              <h3>Status</h3>
+              To check the status of your repository, use the 'git status' command.
+              <code>
+                >git status
+              </code>
+            </lo>
+            
+          </ul>
+        </article>
+      </section>
+      
+      <section class="main-section" id="Hello_world">
+        <header>Hello world</header>
+        <article>
+          To get started with writing JavaScript, open the Scratchpad and write
+          your first "Hello world" JavaScript code:
+          <code
+            >function greetMe(yourName) { alert("Hello " + yourName); }
+            greetMe("World");
+          </code>
+          Select the code in the pad and hit Ctrl+R to watch it unfold in your
+          browser!
+        </article>
+      </section>
+
+      <section class="main-section" id="Basic HTML Elements">
+        <header>Variables</header>
+        <p>
+          You use variables as symbolic names for values in your application.
+          The names of variables, called identifiers, conform to certain rules.
+        </p>
+        <p>
+          A JavaScript identifier must start with a letter, underscore (_), or
+          dollar sign ($); subsequent characters can also be digits (0-9).
+          Because JavaScript is case sensitive, letters include the characters
+          "A" through "Z" (uppercase) and the characters "a" through "z"
+          (lowercase).
+        </p>
+        <p>
+          You can use ISO 8859-1 or Unicode letters such as å and ü in
+          identifiers. You can also use the Unicode escape sequences as
+          characters in identifiers. Some examples of legal names are
+          Number_hits, temp99, and _name.
+        </p>
+      </section>
+      <section class="main-section" id="Formatting">
+        <header>Formatting</header>
+        <article>
+          You can declare a variable in three ways:
+          <p>
+            With the keyword var. For example, <code>var x = 42.</code> This
+            syntax can be used to declare both local and global variables.
+          </p>
+          <p>
+            By simply assigning it a value. For example,
+            <code>x = 42.</code> This always declares a global variable. It
+            generates a strict JavaScript warning. You shouldn't use this
+            variant.
+          </p>
+          <p>
+            With the keyword let. For example,<code> let y = 13.</code> This
+            syntax can be used to declare a block scope local variable. See
+            Variable scope below.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Frames">
+        <header>Frames</header>
+        <article>
+          <p>
+            When you declare a variable outside of any function, it is called a
+            global variable, because it is available to any other code in the
+            current document. When you declare a variable within a function, it
+            is called a local variable, because it is available only within that
+            function.
+          </p>
+
+          <p>
+            JavaScript before ECMAScript 2015 does not have block statement
+            scope; rather, a variable declared within a block is local to the
+            function (or global scope) that the block resides within. For
+            example the following code will log 5, because the scope of x is the
+            function (or global context) within which x is declared, not the
+            block, which in this case is an if statement.
+          </p>
+          <code>if (true) { var x = 5; } console.log(x); // 5</code>
+          <p>
+            This behavior changes, when using the let declaration introduced in
+            ECMAScript 2015.
+          </p>
+
+          <code
+            >if (true) { let y = 5; } console.log(y); // ReferenceError: y is
+            not defined</code
+          >
+        </article>
+      </section>
+      <section class="main-section" id="Images">
+        <header>Images</header>
+        <article>
+          <p>
+            Global variables are in fact properties of the global object. In web
+            pages the global object is window, so you can set and access global
+            variables using the window.variable syntax.
+          </p>
+
+          <p>
+            Consequently, you can access global variables declared in one window
+            or frame from another window or frame by specifying the window or
+            frame name. For example, if a variable called phoneNumber is
+            declared in a document, you can refer to this variable from an
+            iframe as parent.phoneNumber.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Audio/Video">
+        <header>Audio/Video</header>
+        <article>
+          <p>
+            You can create a read-only, named constant with the const keyword.
+            The syntax of a constant identifier is the same as for a variable
+            identifier: it must start with a letter, underscore or dollar sign
+            and can contain alphabetic, numeric, or underscore characters.
+          </p>
+
+          <code>const PI = 3.14;</code>
+          <p>
+            A constant cannot change value through assignment or be re-declared
+            while the script is running. It has to be initialized to a value.
+          </p>
+
+          <p>
+            The scope rules for constants are the same as those for let block
+            scope variables. If the const keyword is omitted, the identifier is
+            assumed to represent a variable.
+          </p>
+
+          <p>
+            You cannot declare a constant with the same name as a function or
+            variable in the same scope. For example:
+          </p>
+
+          <code
+            >// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
+            WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
+            //statements }</code
+          >
+          However, object attributes are not protected, so the following
+          statement is executed without problems.
+          <code
+            >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
+            "otherValue";</code
+          >
+        </article>
+      </section>
+      <section class="main-section" id="Lists">
+        <header>Lists</header>
+        <article>
+          <p>The latest ECMAScript standard defines seven data types:</p>
+          <ul>
+            <li>
+              <p>Six data types that are primitives:</p>
+              <ul>
+                <li>Boolean. true and false.</li>
+                <li>
+                  null. A special keyword denoting a null value. Because
+                  JavaScript is case-sensitive, null is not the same as Null,
+                  NULL, or any other variant.
+                </li>
+                <li>
+                  undefined. A top-level property whose value is undefined.
+                </li>
+                <li>Number. 42 or 3.14159.</li>
+                <li>String. "Howdy"</li>
+                <li>
+                  Symbol (new in ECMAScript 2015). A data type whose instances
+                  are unique and immutable.
+                </li>
+              </ul>
+            </li>
+
+            <li>and Object</li>
+          </ul>
+          Although these data types are a relatively small amount, they enable
+          you to perform useful functions with your applications. Objects and
+          functions are the other fundamental elements in the language. You can
+          think of objects as named containers for values, and functions as
+          procedures that your application can perform.
+        </article>
+      </section>
+      <section class="main-section" id="Tables">
+        <header>Tables</header>
+        <article>
+          Use the if statement to execute a statement if a logical condition is
+          true. Use the optional else clause to execute a statement if the
+          condition is false. An if statement looks as follows:
+
+          <code>if (condition) { statement_1; } else { statement_2; }</code>
+          condition can be any expression that evaluates to true or false. See
+          Boolean for an explanation of what evaluates to true and false. If
+          condition evaluates to true, statement_1 is executed; otherwise,
+          statement_2 is executed. statement_1 and statement_2 can be any
+          statement, including further nested if statements.
+          <p>
+            You may also compound the statements using else if to have multiple
+            conditions tested in sequence, as follows:
+          </p>
+          <code
+            >if (condition_1) { statement_1; } else if (condition_2) {
+            statement_2; } else if (condition_n) { statement_n; } else {
+            statement_last; }
+          </code>
+          In the case of multiple conditions only the first logical condition
+          which evaluates to true will be executed. To execute multiple
+          statements, group them within a block statement ({ ... }) . In
+          general, it's good practice to always use block statements, especially
+          when nesting if statements:
+
+          <code
+            >if (condition) { statement_1_runs_if_condition_is_true;
+            statement_2_runs_if_condition_is_true; } else {
+            statement_3_runs_if_condition_is_false;
+            statement_4_runs_if_condition_is_false; }</code
+          >
+          It is advisable to not use simple assignments in a conditional
+          expression, because the assignment can be confused with equality when
+          glancing over the code. For example, do not use the following code:
+          <code>if (x = y) { /* statements here */ }</code> If you need to use
+          an assignment in a conditional expression, a common practice is to put
+          additional parentheses around the assignment. For example:
+
+          <code>if ((x = y)) { /* statements here */ }</code>
+        </article>
+      </section>
+      <section class="main-section" id="Styles_and_Semantics">
+        <header>Styles and Semantics</header>
+        <article>
+          A while statement executes its statements as long as a specified
+          condition evaluates to true. A while statement looks as follows:
+
+          <code>while (condition) statement</code> If the condition becomes
+          false, statement within the loop stops executing and control passes to
+          the statement following the loop.
+
+          <p>
+            The condition test occurs before statement in the loop is executed.
+            If the condition returns true, statement is executed and the
+            condition is tested again. If the condition returns false, execution
+            stops and control is passed to the statement following while.
+          </p>
+
+          <p>
+            To execute multiple statements, use a block statement ({ ... }) to
+            group those statements.
+          </p>
+
+          Example:
+
+          <p>
+            The following while loop iterates as long as n is less than three:
+          </p>
+
+          <code>var n = 0; var x = 0; while (n &lt; 3) { n++; x += n; }</code>
+          <p>
+            With each iteration, the loop increments n and adds that value to x.
+            Therefore, x and n take on the following values:
+          </p>
+
+          <ul>
+            <li>After the first pass: n = 1 and x = 1</li>
+            <li>After the second pass: n = 2 and x = 3</li>
+            <li>After the third pass: n = 3 and x = 6</li>
+          </ul>
+          <p>
+            After completing the third pass, the condition n &lt; 3 is no longer
+            true, so the loop terminates.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Meta_Info">
+        <header>Meta Info</header>
+        <article>
+          A function definition (also called a function declaration, or function
+          statement) consists of the function keyword, followed by:
+
+          <ul>
+            <li>The name of the function.</li>
+            <li>
+              A list of arguments to the function, enclosed in parentheses and
+              separated by commas.
+            </li>
+            <li>
+              The JavaScript statements that define the function, enclosed in
+              curly brackets, { }.
+            </li>
+          </ul>
+          <p>
+            For example, the following code defines a simple function named
+            square:
+          </p>
+
+          <code>function square(number) { return number * number; }</code>
+          <p>
+            The function square takes one argument, called number. The function
+            consists of one statement that says to return the argument of the
+            function (that is, number) multiplied by itself. The return
+            statement specifies the value returned by the function.
+          </p>
+          <code>return number * number;</code>
+          <p>
+            Primitive parameters (such as a number) are passed to functions by
+            value; the value is passed to the function, but if the function
+            changes the value of the parameter, this change is not reflected
+            globally or in the calling function.
+          </p>
+        </article>
+      </section>
+      <section class="main-header" id="Programming">
+        <header>Programming</header>
+        <article>
+
+        </article>
+      </section>
+      <section class="main-header" id="Windows_Subsystem_for_Linux">
+        <header>Windows Subsystem for Linux</header>
+        <article>
+
+        </article>
+      </section>
+      <section class="main-header" id="Flexbox_CSS_Tricks">
+        <header>Flexbox CSS Tricks</header>
+        <article>
+
+        </article>
+      </section>
+      <section class="main-header" id=" Basic_and_Terminology">
+        <header>Basic and Terminology</header>
+        <article>
+
+        </article>
+      </section>
+      <section class="main-header" id="Properties_for_the_Parent">
+        <header>Properties for the Parent</header>
+        <article>
+
+        </article>
+      </section>
+      <section class="main-header" id=" Properties_for_the_Child">
+        <header>Properties for the Child</header>
+        <article>
+
+        </article>
+      </section>
+      <section class="main-header" id="">
+        <article>
+
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is taken from
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+                target="_blank"
+                >MDN</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
