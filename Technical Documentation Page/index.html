@@ -31,6 +31,7 @@
           <a class="nav-link" href="#Images">Images</a>
         </li>
         <li><a class="nav-link" href="#Audio/Video">Audio/Video</a></li>
+        <li><a class="nav-link" href="Links"></a></li>
         <li><a class="nav-link" href="#Lists">Lists</a></li>
         <li>
           <a class="nav-link" href="Tables"
@@ -44,12 +45,11 @@
           >
         </li>
         <li><a class="nav-link" href="#Programming">Programming</a></li>
-        <li><a href="Windows_Subsystem_for_Linux">Windows Subsystem for Linux</a></li>
         <li><a href="Flexbox_CSS_Tricks"> Flexbox CSS Tricks</a></li>
         <li><a href="Basic_and_Terminology">Basic and Terminology</a></li>
         <li><a href="Properties_for_the_Parent"> Properties for the Parent</a></li>
         <li><a href="Properties_for_the_Child">Properties for the Child</a></li>
-        <li><a class="nav-link" href="#Reference">Reference</a></li>
+        
       </ul>
     </nav>
     <main id="main-doc">
@@ -242,58 +242,36 @@
         </article>
       </section>
       
-      <section class="main-section" id="Hello_world">
-        <header>Hello world</header>
-        <article>
-          To get started with writing JavaScript, open the Scratchpad and write
-          your first "Hello world" JavaScript code:
-          <code
-            >function greetMe(yourName) { alert("Hello " + yourName); }
-            greetMe("World");
-          </code>
-          Select the code in the pad and hit Ctrl+R to watch it unfold in your
-          browser!
-        </article>
-      </section>
-
+      
       <section class="main-section" id="Basic HTML Elements">
-        <header>Variables</header>
+        <header>Basic HTML Elements</header>
         <p>
-          You use variables as symbolic names for values in your application.
-          The names of variables, called identifiers, conform to certain rules.
-        </p>
-        <p>
-          A JavaScript identifier must start with a letter, underscore (_), or
-          dollar sign ($); subsequent characters can also be digits (0-9).
-          Because JavaScript is case sensitive, letters include the characters
-          "A" through "Z" (uppercase) and the characters "a" through "z"
-          (lowercase).
-        </p>
-        <p>
-          You can use ISO 8859-1 or Unicode letters such as å and ü in
-          identifiers. You can also use the Unicode escape sequences as
-          characters in identifiers. Some examples of legal names are
-          Number_hits, temp99, and _name.
+          The basic elements in html are:
+          <ul>
+            <li>
+              !DOCTYPE - defines the document type
+            </li>
+            <li>html - defines an HTML document</li>
+            <li>head - contains metadata/information for the document</li>
+            <li>title - defines a title for the document</li>
+            <li>body - defines the document's body</li>
+            <li>h1-h6 - The 'h' stands for heading and the number refers to how big your heading will be.</li>
+            <li>p - stands for paragraph</li>
+            <li>br - being used to insert a single line break</li>
+            <li>!--...-- - defines a comment</li>
+            
+          </ul>
         </p>
       </section>
       <section class="main-section" id="Formatting">
         <header>Formatting</header>
         <article>
-          You can declare a variable in three ways:
           <p>
-            With the keyword var. For example, <code>var x = 42.</code> This
-            syntax can be used to declare both local and global variables.
-          </p>
-          <p>
-            By simply assigning it a value. For example,
-            <code>x = 42.</code> This always declares a global variable. It
-            generates a strict JavaScript warning. You shouldn't use this
-            variant.
-          </p>
-          <p>
-            With the keyword let. For example,<code> let y = 13.</code> This
-            syntax can be used to declare a block scope local variable. See
-            Variable scope below.
+            Formatting is used when you want your file to have a format.
+            Such as bolding a text by using b, citing a reference or a work.
+            Inserting a code, marking a text, abbreviating words or acronym. 
+            You can also define a specific time, define a variable and many
+            more ways to format your file.
           </p>
         </article>
       </section>
@@ -301,48 +279,17 @@
         <header>Frames</header>
         <article>
           <p>
-            When you declare a variable outside of any function, it is called a
-            global variable, because it is available to any other code in the
-            current document. When you declare a variable within a function, it
-            is called a local variable, because it is available only within that
-            function.
+            Used to define a frame. The element to define an inline frame is iframe.
           </p>
-
-          <p>
-            JavaScript before ECMAScript 2015 does not have block statement
-            scope; rather, a variable declared within a block is local to the
-            function (or global scope) that the block resides within. For
-            example the following code will log 5, because the scope of x is the
-            function (or global context) within which x is declared, not the
-            block, which in this case is an if statement.
-          </p>
-          <code>if (true) { var x = 5; } console.log(x); // 5</code>
-          <p>
-            This behavior changes, when using the let declaration introduced in
-            ECMAScript 2015.
-          </p>
-
-          <code
-            >if (true) { let y = 5; } console.log(y); // ReferenceError: y is
-            not defined</code
-          >
         </article>
       </section>
       <section class="main-section" id="Images">
         <header>Images</header>
         <article>
           <p>
-            Global variables are in fact properties of the global object. In web
-            pages the global object is window, so you can set and access global
-            variables using the window.variable syntax.
-          </p>
-
-          <p>
-            Consequently, you can access global variables declared in one window
-            or frame from another window or frame by specifying the window or
-            frame name. For example, if a variable called phoneNumber is
-            declared in a document, you can refer to this variable from an
-            iframe as parent.phoneNumber.
+            Elements in images are used to define an image, give a caption to a picture,
+            define a client-side map or an area inside an image map and etc.
+            These elements are; img, map, area, canvas, figcaption, figure, picture and svg.
           </p>
         </article>
       </section>
@@ -350,214 +297,64 @@
         <header>Audio/Video</header>
         <article>
           <p>
-            You can create a read-only, named constant with the const keyword.
-            The syntax of a constant identifier is the same as for a variable
-            identifier: it must start with a letter, underscore or dollar sign
-            and can contain alphabetic, numeric, or underscore characters.
+            Elements in audio/video are used to define a sound content, 
+            a video or movie, the source and the track you want to add 
+            to your page. 
           </p>
+        </article>
+      </section>
+      <section class="main-section" id="Links">
+        <header>Links</header>
+        <article>
+          <p>The elements used in links are:</p>
+          <ul>
+            <li>a - used to define a hyperlink</li>
+            <li>link - Mostly used to link stylesheet as it defines the relationship between a document an external resource.<li>
 
-          <code>const PI = 3.14;</code>
-          <p>
-            A constant cannot change value through assignment or be re-declared
-            while the script is running. It has to be initialized to a value.
-          </p>
-
-          <p>
-            The scope rules for constants are the same as those for let block
-            scope variables. If the const keyword is omitted, the identifier is
-            assumed to represent a variable.
-          </p>
-
-          <p>
-            You cannot declare a constant with the same name as a function or
-            variable in the same scope. For example:
-          </p>
-
-          <code
-            >// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
-            WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
-            //statements }</code
-          >
-          However, object attributes are not protected, so the following
-          statement is executed without problems.
-          <code
-            >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
-            "otherValue";</code
-          >
+            <li>nav - defines navigation links</li>
+          </ul>
         </article>
       </section>
       <section class="main-section" id="Lists">
         <header>Lists</header>
         <article>
-          <p>The latest ECMAScript standard defines seven data types:</p>
-          <ul>
-            <li>
-              <p>Six data types that are primitives:</p>
-              <ul>
-                <li>Boolean. true and false.</li>
-                <li>
-                  null. A special keyword denoting a null value. Because
-                  JavaScript is case-sensitive, null is not the same as Null,
-                  NULL, or any other variant.
-                </li>
-                <li>
-                  undefined. A top-level property whose value is undefined.
-                </li>
-                <li>Number. 42 or 3.14159.</li>
-                <li>String. "Howdy"</li>
-                <li>
-                  Symbol (new in ECMAScript 2015). A data type whose instances
-                  are unique and immutable.
-                </li>
-              </ul>
-            </li>
-
-            <li>and Object</li>
-          </ul>
-          Although these data types are a relatively small amount, they enable
-          you to perform useful functions with your applications. Objects and
-          functions are the other fundamental elements in the language. You can
-          think of objects as named containers for values, and functions as
-          procedures that your application can perform.
+          <p>Lists elements are mainly used to define an ordered list, unordered list and a list item.</p>
         </article>
       </section>
       <section class="main-section" id="Tables">
         <header>Tables</header>
         <article>
-          Use the if statement to execute a statement if a logical condition is
-          true. Use the optional else clause to execute a statement if the
-          condition is false. An if statement looks as follows:
-
-          <code>if (condition) { statement_1; } else { statement_2; }</code>
-          condition can be any expression that evaluates to true or false. See
-          Boolean for an explanation of what evaluates to true and false. If
-          condition evaluates to true, statement_1 is executed; otherwise,
-          statement_2 is executed. statement_1 and statement_2 can be any
-          statement, including further nested if statements.
-          <p>
-            You may also compound the statements using else if to have multiple
-            conditions tested in sequence, as follows:
+          <p>Elements that are used to define the elements of your table. 
+            From the table itself, defining a table caption, a row, column,
+            cell, the content of the header, body, and footer.
           </p>
-          <code
-            >if (condition_1) { statement_1; } else if (condition_2) {
-            statement_2; } else if (condition_n) { statement_n; } else {
-            statement_last; }
-          </code>
-          In the case of multiple conditions only the first logical condition
-          which evaluates to true will be executed. To execute multiple
-          statements, group them within a block statement ({ ... }) . In
-          general, it's good practice to always use block statements, especially
-          when nesting if statements:
-
-          <code
-            >if (condition) { statement_1_runs_if_condition_is_true;
-            statement_2_runs_if_condition_is_true; } else {
-            statement_3_runs_if_condition_is_false;
-            statement_4_runs_if_condition_is_false; }</code
-          >
-          It is advisable to not use simple assignments in a conditional
-          expression, because the assignment can be confused with equality when
-          glancing over the code. For example, do not use the following code:
-          <code>if (x = y) { /* statements here */ }</code> If you need to use
-          an assignment in a conditional expression, a common practice is to put
-          additional parentheses around the assignment. For example:
-
-          <code>if ((x = y)) { /* statements here */ }</code>
         </article>
       </section>
       <section class="main-section" id="Styles_and_Semantics">
         <header>Styles and Semantics</header>
         <article>
-          A while statement executes its statements as long as a specified
-          condition evaluates to true. A while statement looks as follows:
-
-          <code>while (condition) statement</code> If the condition becomes
-          false, statement within the loop stops executing and control passes to
-          the statement following the loop.
-
-          <p>
-            The condition test occurs before statement in the loop is executed.
-            If the condition returns true, statement is executed and the
-            condition is tested again. If the condition returns false, execution
-            stops and control is passed to the statement following while.
+          <p>Elements in these section are mainly used to define the style
+            information of a document, a section in a document, a header or 
+            a footer for a document or section and many more.
           </p>
-
-          <p>
-            To execute multiple statements, use a block statement ({ ... }) to
-            group those statements.
-          </p>
-
-          Example:
-
-          <p>
-            The following while loop iterates as long as n is less than three:
-          </p>
-
-          <code>var n = 0; var x = 0; while (n &lt; 3) { n++; x += n; }</code>
-          <p>
-            With each iteration, the loop increments n and adds that value to x.
-            Therefore, x and n take on the following values:
-          </p>
-
-          <ul>
-            <li>After the first pass: n = 1 and x = 1</li>
-            <li>After the second pass: n = 2 and x = 3</li>
-            <li>After the third pass: n = 3 and x = 6</li>
-          </ul>
-          <p>
-            After completing the third pass, the condition n &lt; 3 is no longer
-            true, so the loop terminates.
-          </p>
+      
         </article>
       </section>
       <section class="main-section" id="Meta_Info">
         <header>Meta Info</header>
         <article>
-          A function definition (also called a function declaration, or function
-          statement) consists of the function keyword, followed by:
-
-          <ul>
-            <li>The name of the function.</li>
-            <li>
-              A list of arguments to the function, enclosed in parentheses and
-              separated by commas.
-            </li>
-            <li>
-              The JavaScript statements that define the function, enclosed in
-              curly brackets, { }.
-            </li>
-          </ul>
-          <p>
-            For example, the following code defines a simple function named
-            square:
-          </p>
-
-          <code>function square(number) { return number * number; }</code>
-          <p>
-            The function square takes one argument, called number. The function
-            consists of one statement that says to return the argument of the
-            function (that is, number) multiplied by itself. The return
-            statement specifies the value returned by the function.
-          </p>
-          <code>return number * number;</code>
-          <p>
-            Primitive parameters (such as a number) are passed to functions by
-            value; the value is passed to the function, but if the function
-            changes the value of the parameter, this change is not reflected
-            globally or in the calling function.
+          <p>Its elements are used to define  information about the document. 
+            The metadata about an HTML and specifying the base URL/target for all
+            relative URLs in a document.
           </p>
         </article>
       </section>
       <section class="main-header" id="Programming">
         <header>Programming</header>
         <article>
-
-        </article>
-      </section>
-      <section class="main-header" id="Windows_Subsystem_for_Linux">
-        <header>Windows Subsystem for Linux</header>
-        <article>
-
+          <p>The embed element is used to define a container for an external (non-HTML) application.
+            Some elements are used to define an embedded object and the parameter for an object.
+          </p>
         </article>
       </section>
       <section class="main-header" id="Flexbox_CSS_Tricks">
@@ -569,41 +366,97 @@
       <section class="main-header" id=" Basic_and_Terminology">
         <header>Basic and Terminology</header>
         <article>
-
+          <p></p>
+          <ul>
+            <li>
+              <b>main axis</b>- the primary axis alongwhich flex items are laid out
+            </li>
+            <li><b>main-start | main-end</b> - The flex items are placed within the container starting from main-start and going to main-end.</li>
+            <li><b>main size</b> - The main size is either width or height, depends on whichever is within the main dimension.</li>
+            <li><b>cross axis</b> - The axis that is perpendicular to the main axis. Its direction depends on the direction of the main axis.</li>
+            <li><b>cross-start | cross-end</b> - Flex lines are filled with items and placed into the container starting on the cross-start and going toward the cross-end side.</li>
+            <li><b>cross-size</b> - The cross-size depends on which height or width flex item is in the cross dimension.</li>
+          </ul>
         </article>
       </section>
       <section class="main-header" id="Properties_for_the_Parent">
         <header>Properties for the Parent</header>
         <article>
+          <p>
+            <b>Display</b> 
+            <ul>
+              <li>defines a flex container; inline or block depending on the given value</li>
+              <li>enables a flex content for all of its direct children</li>
+            </ul>
+            <code>
+              .container {
+                display:flex: /* or inline-flex */
+              }
+            </code>
+          </p>
+          <p>The properties for the parent are: 
+            <b>flex-direction, flex-wrap, flex-flow, justify-content, align-items, align-content, gap, roe-gap and column-gap</b>
+            <code>
+              Sample code for the properties:
 
+              .container {
+                display: flex;
+                
+                gap: 10px;
+                gap: 10px 20px; /* row-gap column gap */
+                row-gap: 10px;
+                column-gap: 20px;
+              }
+            </code>
+          </p>
         </article>
       </section>
       <section class="main-header" id=" Properties_for_the_Child">
         <header>Properties for the Child</header>
         <article>
-
-        </article>
-      </section>
-      <section class="main-header" id="">
-        <article>
-
-        </article>
-      </section>
-      <section class="main-section" id="Reference">
-        <header>Reference</header>
-        <article>
           <ul>
             <li>
-              All the documentation in this page is taken from
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
-                target="_blank"
-                >MDN</a
-              >
+              <b>order</b> - controls the orfder in which they appear in the flex container
+            </li>
+            <li>
+              <b>flex-grow</b> - defines the ability for a flex item to grow if necessary
+            </li>
+            <li>
+              <b>flex-shrink</b> - deifnes the ability for a flex item to shrink
+            </li>
+            <li>
+              <b>flex-basis</b> - defines the default size of an element before the remaining space is distributed
+            </li>
+            <li>
+              <b>flex</b> - shorthand for flex-grow, flex-shrink, flex-basis combined
+            </li>
+            <li>
+              <b>align-self</b> - allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.
             </li>
           </ul>
+          <b>Sample Code:
+            <code>
+              .item {
+                flex: none | [<'flex-grow'> <'flex-shrink'>? || <'flex-basis]
+              }
+            </code>
+
+            <code>
+              .parent {
+                display: flex:
+                height: 300px
+              }
+
+              .child {
+                width: 100px;
+                height: 100px;
+                margin: auto;
+              }
+            </code>
+          </b>
         </article>
       </section>
+      
     </main>
   </body>
 </html>
